@@ -104,13 +104,15 @@ Total broken internal links: 2
 ## Project structure
 
 ```
-mdstats/
-├── pyproject.toml      # Package metadata and deps
-├── mdstats.py          # CLI implementation (flat single module)
-├── README.md           # This file
+.github/
+├── workflows/
+│   └── ci.yml
 ├── .gitignore
+├── README.md
+├── mdstats.py
+├── pyproject.toml
 └── tests/
-    └── test_mdstats.py # pytest suite
+    └── test_mdstats.py
 ```
 
 ## Tags
